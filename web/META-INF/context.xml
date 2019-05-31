@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+    <Resource
+    name="jdbc/mydb"
+    auth="Container"
+    type="javax.sql.DataSource"
+    username="root"
+    password="2168400"
+    driverClassName="com.mysql.jdbc.Driver"
+    url="jdbc:mysql://localhost:3306/forum?characterEncoding=GB2312&amp;serverTimezone=UTC"
+    maxIdle="2"
+    maxWait="5000"
+    maxActive="4"/>
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+</Context>

@@ -1,0 +1,17 @@
+#heng{
+    position: absolute;
+    height: 280px;
+    width: 300px;
+    right: 200px;
+    top: 170px;
+    background-color: #8e9eab;
+    margin: 20px;
+
+}
+
+#login_content {
+    transform: scale(1.2,1.2);
+    position: relative;
+    left: 50px;
+    top: 50px;
+}

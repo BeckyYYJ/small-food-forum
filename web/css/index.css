@@ -1,0 +1,45 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+.top-toolbar{  background-color: #dfb29c;
+                height: 30px;
+                width: 100%}
+.top-toolbar a{
+
+    height: 10px;
+    font-size: 22px;
+    text-decoration: none;
+    color:white}
+.top-toolbar a:hover{background-color:#cc0000; }
+
+.info{float: right}
+.nav{float: left}
+.title{
+    height: 20px;
+    width: 100%;
+    background-color: #8e9eab;
+
+}
+.subtitle{
+    padding: 20px;
+    left: 20px;
+    background-color: #dde1dc;
+    width: 100%;
+    height: 100px;
+}
+.text{
+    position: relative;
+   left: 50px;
+}
+
+ul#nav{
+    width: 100%;height: 60px;background-color: #dfb29c;
+}
+ul#nav li{
+    display: inline;height: 60px;
+}
+
+ul#nav li a{
+    display: inline-block;height: 60px;
+}
